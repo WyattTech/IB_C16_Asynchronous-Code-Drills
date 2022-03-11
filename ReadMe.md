@@ -10,7 +10,7 @@
 1. Create a function that takes a string message as an argument, and logs that message to the console
 2. Now call your function with a message
 3. Use setTimeout to call your function again, but with a different message and after 2 seconds
-    1. Hint: If you both of your messages log at the same time, look at the syntax of a setTimeout. You'll need to call your function within an anonymous function the timeOut executes.
+    *  Hint: If you both of your messages log at the same time, look at the syntax of a setTimeout. You'll need to call your function within an anonymous function the timeOut executes.
 4. Create a new function called getWords that will attempt to do the following using several setTimeout calls:
     * Log a word instantly
     * After 3 seconds, log another word
@@ -40,3 +40,5 @@
 9.  If the promise within the function resolves, it should then log the object it resolved with
 10. Swap lunchTime to false, and then the promise should reject with your custom created error and be logged from you .catch
 11. Toggle lunchTime and check out the results of your newly created Promise function.
+
+### Task attributed to [Covalence](https://covalence.io/)
